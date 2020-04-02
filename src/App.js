@@ -28,7 +28,8 @@ function App() {
         setLoading(false);
         setHasErrors(true);
       });
-  }
+  },
+  []
   );
 
   return (
